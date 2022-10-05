@@ -94,7 +94,7 @@ thresh_uni= th(gray_uni)
 thresh_tha = th(gray_tha)
 
 cv.imwrite("Resultados/Thresh_Thanos.png", thresh_tha)
-cv.imwrite("Thresh_Universe.png", thresh_uni)
+cv.imwrite("Resultados/Thresh_Universe.png", thresh_uni)
 
 #######################################################################
 def mask(image):
